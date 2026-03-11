@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+     <style>
+        .content-box, .border-box {
+            background: rgb(203, 145, 230);
+            width: 200px;
+            height: 50px;
+            margin: 8px;
+            padding: 20px;
+            border: 10px solid black;
+        }
+        .content-box {
+            box-sizing: content-box;
+        }
+        .border-box {
+            box-sizing: border-box;
+        }
+     </style>
+<body>
+    <section class="wrap">
+        <h1>Box-sizing</h1>
+        <div class="content-box">content-box</div>
+        <div class="border-box">border-box</div>
+    </section>
+</body>
+</html>

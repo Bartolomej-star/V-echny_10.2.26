@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrap {
+    padding: 16px;
+}
+.panel {
+    width: 400px;
+    height: 400px;
+    background: lightseagreen;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: tomato;
+
+    display: grid;
+    place-items: center;
+    margin-bottom: 16px;
+}
+
+.weird {
+    width: 400px;
+    height: 400px;
+    background: rgb(30, 224, 215);
+
+    border-width: 10px;
+    
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: ridge;
+    border-top-style: solid;
+    
+    border-color: rgb(126, 31, 15);
+
+    display: grid;
+    place-items: center;
+    margin-bottom: 16px;
+}
+.card {
+    width: 400px;
+    height: 400px;
+    background: rgb(10, 80, 76);
+    border: 10px solid red;
+
+    display: grid;
+    place-items: center;
+    margin-bottom: 16px;
+}
