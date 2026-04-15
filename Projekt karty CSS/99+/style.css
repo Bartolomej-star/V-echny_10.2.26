@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(109, 135, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(230, 217, 40);
+    padding: 40px 30px;
+    border-radius: 25px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.profilovka {
+    width: 100px;
+    height: 100px;
+    background: rgb(109, 135, 150);
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.podtitulek {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.text {
+    margin-bottom: 19px;
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.spany span {
+    display: inline-block;
+    border-radius: 20px;
+    margin: 5px;
+    background: rgb(109, 135, 150);
+    padding: 5px 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 5px;
+}
