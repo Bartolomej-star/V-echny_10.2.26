@@ -1,0 +1,28 @@
+input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li:first-child {
+    border: 2px solid black;
+}
+li:last-child {
+    border: 2px solid red;
+}
+li:nth-child(5) {
+    background-color: red;
+}
+
+.btn-demo {
+    border: 2px solid black;
+    padding: 10px 15px;
+    background-color: slateblue;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 1ms;
+}
+
+.btn-demo:hover {
+    background-color: red;
+}
